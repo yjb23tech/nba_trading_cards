@@ -8,7 +8,7 @@ const Card = (props) => {
                     <span><p>{props.nba_player_height}</p></span>
                     <span><p>{props.nba_player_position}</p></span>
                 </div>
-                <h1>{props.nba_player_name}</h1>
+                <h3>{props.nba_player_name}</h3>
                 <p>{props.nba_player_bio}</p>
             </div>
         </div>
