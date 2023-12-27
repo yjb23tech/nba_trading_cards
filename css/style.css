@@ -31,7 +31,21 @@ body {
     margin: 0px;
 }
 
+.nba_players_league {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 100px;
+    margin: 100px;
+}
+
 .nba_player_card {
+    flex-basis: 300px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,14 +54,43 @@ body {
 }
 
 .nba_player_card > img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
 }
 
 .nba_player_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
+.nba_player_content > h1, p {
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+}
+
+.nba_player_core_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.nba_player_core_details > img {
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+}
+
+.nba_player_core_details > p {
+    font-weight: 400px;
+    font-family: sans-serif;
+    font-size: 18px;
+}

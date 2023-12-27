@@ -6,14 +6,16 @@ const App = () => {
     return (
         <div>
             <NaviBar />
-            <Card 
-                nba_player_graphic="nba_lbj_rsz.png"
-                nba_trophy_logo="trophy_icon.png"
-                nba_player_height="6'8"
-                nba_player_position="Small Forward"
-                nba_player_name="LeBron James"
-                nba_player_bio = "The Kid From Akron"
-            />
+            <div className="nba_players_league">
+                <Card 
+                    nba_player_graphic="nba_lbj_rsz.png"
+                    nba_trophy_logo="trophy_icon.png"
+                    nba_player_height="6'8"
+                    nba_player_position="Small Forward"
+                    nba_player_name="LeBron James"
+                    nba_player_bio = "The Kid From Akron"
+                />
+            </div>
         </div>
     )
 }
