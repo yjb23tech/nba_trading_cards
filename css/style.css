@@ -12,9 +12,14 @@
 
 .universal-navi > h3 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 25px;
     font-family: sans-serif;
     color: white;
+}
+
+.universal-navi > img {
+    height: 12px;
+    width: 12px;
 }
 
 
