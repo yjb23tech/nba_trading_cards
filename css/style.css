@@ -70,7 +70,6 @@ body {
     padding: 0;
     border: 0;
     margin: 0;
-
 }
 
 .nba_player_core_details {
@@ -86,7 +85,6 @@ body {
 .nba_player_core_details > img {
     height: 15px;
     width: 15px;
-    border-radius: 5px;
 }
 
 .nba_player_core_details > p {
