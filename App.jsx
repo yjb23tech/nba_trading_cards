@@ -6,6 +6,10 @@ const App = () => {
     return (
         <div>
             <NaviBar />
+            <Card 
+                nba_player_graphic="nba_lbj_rsz.png"
+                nba_trophy_logo="trophy_icon.png"
+            />
         </div>
     )
 }
