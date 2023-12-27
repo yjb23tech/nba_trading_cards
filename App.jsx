@@ -8,12 +8,36 @@ const App = () => {
             <NaviBar />
             <div className="nba_players_league">
                 <Card 
-                    nba_player_graphic="nba_lbj_rsz.png"
+                    nba_player_graphic="nba_mj_rsz.png"
                     nba_trophy_logo="trophy_icon.png"
-                    nba_player_height="6'8"
-                    nba_player_position="Small Forward"
-                    nba_player_name="LeBron James"
-                    nba_player_bio = "The Kid From Akron"
+                    nba_player_height="6'6"
+                    nba_player_position="Shooting Guard"
+                    nba_player_name="Michael Jordan"
+                    nba_player_bio = "The Black Cat"
+                />
+                <Card 
+                    nba_player_graphic="nba_mj_rsz.png"
+                    nba_trophy_logo="trophy_icon.png"
+                    nba_player_height="6'6"
+                    nba_player_position="Shooting Guard"
+                    nba_player_name="Michael Jordan"
+                    nba_player_bio = "The Black Cat"
+                />
+                <Card 
+                    nba_player_graphic="nba_mj_rsz.png"
+                    nba_trophy_logo="trophy_icon.png"
+                    nba_player_height="6'6"
+                    nba_player_position="Shooting Guard"
+                    nba_player_name="Michael Jordan"
+                    nba_player_bio = "The Black Cat"
+                />
+                <Card 
+                    nba_player_graphic="nba_mj_rsz.png"
+                    nba_trophy_logo="trophy_icon.png"
+                    nba_player_height="6'6"
+                    nba_player_position="Shooting Guard"
+                    nba_player_name="Michael Jordan"
+                    nba_player_bio = "The Black Cat"
                 />
             </div>
         </div>

@@ -43,7 +43,7 @@ body {
 }
 
 .nba_player_card {
-    flex-basis: 300px;
+    flex-basis: 325px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     display: flex;
@@ -81,15 +81,23 @@ body {
 .nba_player_core_details > img {
     height: 15px;
     width: 15px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-right: 5px;
 }
 
-.nba_player_core_details > p {
+.nba_player_core_details > span > p {
     font-weight: 400px;
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 10px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-right: 5px;
 }
 
-.nba_player_content > h1 {
+.nba_player_content > h3 {
     padding: 0px;
     border: 0px;
     margin: 0px;
