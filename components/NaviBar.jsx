@@ -1,4 +1,4 @@
-import basketball_logo_white from "../public/images/basketball_logo_white.png"
+import basketball_logo_white from "../public/images/basketball_logo_straight_white.png"
 
 const NaviBar = () => {
     return (
